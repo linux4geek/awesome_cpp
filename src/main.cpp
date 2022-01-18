@@ -1,7 +1,12 @@
 ﻿#include <iostream>
+#include "sizeof.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
+#define SIZEOFMAIN
+
+int main(int argc, char** argv){
+    
+    SizeOfMain();
+
+    return 0;
 }
 
