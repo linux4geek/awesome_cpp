@@ -1,4 +1,4 @@
-//sizeofÊ¹ÓÃ×Ü½á
+ï»¿//sizeofä½¿ç”¨æ€»ç»“
 #include "sizeof.h"
 #include <string>
 #include <iostream>
@@ -6,7 +6,7 @@
 using namespace std;
 
 void Dump(int* data, int len) {
-    //´«Èëº¯ÊıÖ®ºóÊı×éÃû»á±»×ª»¯ÎªÖ¸Õë£¬sizeofÖ»ÇóµÃÖ¸ÕëÕ¼µÃ×Ö½ÚÊı¡£
+    //ä¼ å…¥å‡½æ•°ä¹‹åæ•°ç»„åä¼šè¢«è½¬åŒ–ä¸ºæŒ‡é’ˆï¼Œsizeofåªæ±‚å¾—æŒ‡é’ˆå å¾—å­—èŠ‚æ•°ã€‚
     int data_size = sizeof(data); 
     cout << "data_size: " << data_size << endl;
     for (int i=0; i<len; i++){

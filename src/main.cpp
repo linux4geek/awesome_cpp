@@ -1,5 +1,7 @@
 ﻿#include <iostream>
 #include "sizeof.h"
+#include "cast.h"
+
 
 #define SIZEOFMAIN
 
