@@ -14,8 +14,19 @@
 
 using namespace std;
 
-int CastMain(int argc, char** argv) {
+class Base {
+public:
+    Base() {};
+    ~Base() {};
+};
 
+class ClassA : public Base {
+public:
+    ClassA() {};
+    ~ClassA() {};
+};
+
+int CastMain(int argc, char** argv) {
     const char* data = "123456";
     char* buf = const_cast<char*> (data);
     
