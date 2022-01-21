@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\bytesize.cpp" />
     <ClCompile Include="..\src\cast.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\sizeof.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\bytesize.h" />
     <ClInclude Include="..\src\cast.h" />
     <ClInclude Include="..\src\sizeof.h" />
   </ItemGroup>

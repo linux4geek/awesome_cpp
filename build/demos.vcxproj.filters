@@ -20,12 +20,18 @@
     <ClCompile Include="..\src\cast.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\bytesize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\sizeof.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\src\cast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\bytesize.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
